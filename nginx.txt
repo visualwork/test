@@ -1,0 +1,10 @@
+Centos 7.1 nginx 설치 
+
+repo file Download 
+[root@test ~]# wget http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
+
+nginx repo install  
+[root@test ~]# rpm -ivh nginx-release-centos-7-0.el7.ngx.noarch.rpm
+
+nginx install 
+[root@test ~]# yum install -y nginx
